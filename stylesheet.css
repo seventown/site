@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background-color: #eeeeee;
+  background-color: #fcfcfc;
 }
 nav li {
   display: inline;
@@ -24,7 +24,7 @@ nav ul {
   height: 50%;
 }
 nav {
-  background-color: #6600db;
+  background-color: #160030;
   display: grid;
   grid-template-columns: 10% 80% 10%;
   grid-template-rows: 60px;
