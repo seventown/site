@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #c5c5c5;
+  background-color: #eeeeee;
 }
 nav li {
   display: inline;
@@ -18,13 +18,14 @@ nav {
   height: 1%;
   background-color: #6600db;
   width: 100%;
+  display: block;
 }
 nav img {
   height: 100%;
-  margin-left: 10px;
-  margin-right:10px;
-  margin-top: 0;
-  margin-bottom: 0;
+  padding-left: 10px;
+  padding-right:10px;
+  padding-top: 0;
+  padding-bottom: 0;
   display: inline-block;
 }
 #header-no-nav {
