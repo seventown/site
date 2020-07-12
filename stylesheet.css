@@ -11,11 +11,11 @@ nav li {
   font-family: 'Ubuntu', sans-serif;
 }
 nav ul {
-  display: inline;
-  text-align: center;
+  display: inline-block;
+  height: 100%;
 }
 nav {
-  height: 1%;
+  height: 150px;
   background-color: #6600db;
   width: 100%;
   display: block;
