@@ -9,8 +9,7 @@ nav li {
   font-size: 15pt;
 }
 nav ul {
-  display: block;
-  margin: auto;
+  display: inline;
 }
 nav {
   height: 100px;
@@ -26,7 +25,7 @@ header {
   background-attachment: fixed;
   height: 300px;
 }
-header img {
+#hlogo {
   height: 150px;
   display: block;
   margin: auto;
