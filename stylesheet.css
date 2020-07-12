@@ -44,16 +44,27 @@ nav img {
   display: flex;
   align-items: center;
 }
+
+@keyframes logo_slidein {
+  from {opacity: 0; top: 40px;}
+  to {opacity: 100%; top: 0px;}
+}
+
 #hlogo {
-  width: 40%;
+  width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
+  position: relative;
+  animation-name: logo_slidein;
+  animation-duration: 1.5s;
 }
+
+
+
 main {
   display: block;
-  width: 80%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
