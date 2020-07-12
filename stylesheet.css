@@ -9,16 +9,21 @@ nav li {
   font-size: 15pt;
   color: white;
   font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  place-self: center;
 }
 nav ul {
-  display: inline-block;
+  display: grid;
+  grid-auto-flow: column;
   height: 100%;
+  margin: auto;
+  height: 50%;
 }
 nav {
-  height: 150px;
   background-color: #6600db;
-  width: 100%;
-  display: block;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 100px;
 }
 nav img {
   height: 100%;
