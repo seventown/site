@@ -6,27 +6,28 @@ nav li {
   display: inline;
   margin-left: 15px;
   margin-right: 15px;
+  font-size: 15pt;
 }
 nav ul {
   display: block;
   margin: auto;
 }
 nav {
-  height: 30px;
+  height: 100px;
   background-color: #412D73;
   width: 100%;
 }
 nav img {
-  height: 20px;
+  height: 50px;
   margin-left: 10px;
 }
 header {
   background-image: url("images/backgrounds/background-18.32.png");
   background-attachment: fixed;
-  height: 20%;
+  height: 300px;
 }
 header img {
-  size: 20%;
+  size: 150px;
   display: block;
   margin: auto;
 }
