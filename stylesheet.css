@@ -13,13 +13,13 @@ nav ul {
 }
 nav {
   height: 100px;
-  background-color: #412D73;
+  background-color: #6600db;
   width: 100%;
 }
 nav img {
   height: 50px;
   margin-left: 10px;
-  display: inline;
+  display: inline-block;
 }
 header {
   background-image: url("images/backgrounds/background-18.32.png");
