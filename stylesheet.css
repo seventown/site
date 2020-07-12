@@ -12,18 +12,22 @@ nav li {
 }
 nav ul {
   display: inline;
+  text-align: center;
 }
 nav {
-  height: 10%;
+  height: 1%;
   background-color: #6600db;
   width: 100%;
 }
 nav img {
   height: 100%;
   margin-left: 10px;
+  margin-right:10px;
+  margin-top: 0;
+  margin-bottom: 0;
   display: inline-block;
 }
-header {
+#header-no-nav {
   background-image: url("images/backgrounds/background-18.32.png");
   background-attachment: fixed;
   height: 50%;
