@@ -19,6 +19,7 @@ nav {
 nav img {
   height: 50px;
   margin-left: 10px;
+  display: inline;
 }
 header {
   background-image: url("images/backgrounds/background-18.32.png");
