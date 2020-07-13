@@ -199,4 +199,11 @@ footer a {color: purple;}
     z-index: 5;
     margin-left: 15px;
   }
+  #header-no-nav {
+    border-top: 8vh solid #160030;
+
+  }
+  main {
+    width: 80%;
+  }
 }
