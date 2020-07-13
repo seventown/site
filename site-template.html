@@ -25,12 +25,17 @@
   <body>
     <header>
       <nav id="navbar">
-        <img src="images/site-elements/seventownfavicon.png" alt="home logo">
-        <ul>
+        <!-- <img src="images/site-elements/seventownfavicon.png" alt="home logo"> -->
+        <ul class="navlinks">
           <li> article </li>
           <li> article </li>
           <li> article </li>
         </ul>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
       </nav>
       <div id="header-no-nav">
         <img src="images/site-elements/seventownlogo-nobg.png" alt="header logo" id="hlogo">
@@ -78,6 +83,15 @@
         }
         prevScrollpos = currentScrollPos;
       }
+    </script>
+    <!--JAVASCRIPT FOR PHONE NAVBAR-->
+    <script>
+      const hamburger = document.querySelector('.hamburger');
+      const navLinks = document.querySelector('.navlinks');
+      const links = document.querySelectorAll('.navlinks li');
+      hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle("open");
+      })
     </script>
   </body>
 </html>

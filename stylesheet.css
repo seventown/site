@@ -14,12 +14,11 @@ nav li {
   font-family: "Catamaran", sans-serif;
   font-size: 18pt;
   font-weight: 20;
-  text-align: center;
-  place-self: center;
+  justify-content: center;
+  align-items: center;
 }
 nav ul {
-  display: grid;
-  grid-auto-flow: column;
+  display: flex;
   height: 100%;
   margin: auto;
   height: 50%;
@@ -34,6 +33,9 @@ nav ul {
   transition: top 0.3s;
   width: 100%;
   z-index: 3;
+}
+.hamburger {
+  grid-column: 1;
 }
 nav img {
   height: 100%;
@@ -151,3 +153,42 @@ main a {color: blue;}
 nav a {color: green;}
 footer a {color: purple;}
 
+@media only screen and (max-device-width: 600px) {
+  .navlinks {
+    position: fixed;
+    background: #160030;
+    height: 100vh;
+    width: 40%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+
+    clip-path: circle(10px at 10% 0%);
+    -webkit-clip-path: circle(10px at 10% 0%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+
+  }
+  nav li {
+    font-size: 24pt;
+  }
+  .navlinks.open{
+    clip-path: circle(2400px at 10% 0%);
+    -webkit-clip-path: circle(2400px at 10% 0%);
+    pointer-events: all;
+  }
+
+  .line {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px;
+  }
+  .hamburger {
+    align-self: center;
+    cursor: pointer;
+    z-index: 5;
+    margin-left: 15px;
+  }
+}
