@@ -155,11 +155,14 @@ nav a {color: green;}
 footer a {color: purple;}
 
 @media only screen and (max-device-width: 600px) {
+  #navbar {
+    height: 8vh;
+  }
   .navlinks {
     position: fixed;
     background: #160030;
     height: 100vh;
-    width: 40%;
+    width: 100%;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
@@ -172,7 +175,7 @@ footer a {color: purple;}
 
   }
   nav li {
-    font-size: 24pt;
+    font-size: 50pt;
   }
   .navlinks.open{
     clip-path: circle(2400px at 10% 0%);
@@ -181,13 +184,17 @@ footer a {color: purple;}
   }
 
   .line {
-    width: 30px;
-    height: 3px;
+    width: 70%;
+    height: 0.3vh;
     background: white;
-    margin: 5px;
+    margin: 0.5vh;
   }
   .hamburger {
-    align-self: center;
+    position: relative;
+    top: 40%;
+    left: 10%;
+    transform: translate(-5%, 50%);
+
     cursor: pointer;
     z-index: 5;
     margin-left: 15px;
