@@ -9,7 +9,7 @@
         "sizes": "480x480"
       }
     ],
-    "start_url": "/site-elements",
+    "start_url": "/site-template.html",
     "background_color": "#160030",
     "display": "browser",
     "scope": "/",
