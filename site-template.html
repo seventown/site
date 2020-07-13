@@ -14,12 +14,17 @@
       main img {
         width: 80%;
       }
+      img.float {
+       float: right;
+       width: 40%;
+        margin: 20px;
+      }
     </style>
   </head>
 
   <body>
     <header>
-      <nav>
+      <nav id="navbar">
         <img src="images/site-elements/seventownfavicon.png" alt="home logo">
         <ul>
           <li> article </li>
@@ -38,6 +43,7 @@
         Shoulder beef <strong>kielbasa ball tip chicken</strong> bacon turducken kevin fatback tail. <em>Chicken biltong spare ribs</em>, bacon landjaeger sirloin beef ribs 
         jerky boudin ham hock kielbasa tail short loin alcatra. Picanha shankle strip steak meatloaf kevin jerky turkey porchetta chislic 
         chicken short ribs fatback turducken venison swine.</p>
+        <img class="float" src="images/backgrounds/background-15.05.png">
       <p>Ham pancetta pork chop venison cow tenderloin ham hock tri-tip short loin filet mignon tail. Ball tip beef ribs ribeye 
         sausage burgdoggen biltong pork chop shank prosciutto beef boudin corned beef. T-bone jowl buffalo andouille drumstick 
         ribeye kevin flank spare ribs jerky swine hamburger salami tail shoulder. Swine pork kevin burgdoggen meatloaf jowl ball tip 
@@ -58,5 +64,20 @@
         <p>l;'\</p>
       </div>
     </footer>
+
+    <!--JAVASCRIPT FOR NAV SCROLL-->
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+        } 
+      else {
+        document.getElementById("navbar").style.top = "-70px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+    </script>
   </body>
 </html>

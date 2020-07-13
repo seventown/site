@@ -24,11 +24,16 @@ nav ul {
   margin: auto;
   height: 50%;
 }
-nav {
+#navbar {
   background-color: #160030;
   display: grid;
   grid-template-columns: 10% 80% 10%;
   grid-template-rows: 60px;
+  position: fixed;
+  top: 0;
+  transition: top 0.3s;
+  width: 100%;
+  z-index: 3;
 }
 nav img {
   height: 100%;
@@ -142,3 +147,4 @@ footer>* {
 main a {color: blue;}
 nav a {color: green;}
 footer a {color: purple;}
+
