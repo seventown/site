@@ -68,8 +68,11 @@ nav img {
   position: relative;
   animation-name: logo_slidein;
   animation-duration: 1.5s;
+  transition: all .2s ease-in-out;
 }
-
+#hlogo:hover {
+  transform: scale(1.1);
+}
 
 
 main {
