@@ -150,9 +150,19 @@ footer {
 footer>* {
   place-self: center;
 }
-main a {color: blue;}
-nav a {color: green;}
-footer a {color: purple;}
+
+main a {color: rgb(50, 0, 107);}
+main a:hover {color: rgb(112, 62, 168);}
+main a:active {color: rgb(18, 0, 39);}
+main a:visited {color: rgb(50, 0, 107);}
+nav>ul>li>a {color: rgb(255, 255, 255); text-decoration: none;}
+nav>ul>li>a:hover {color: rgb(159, 124, 216); text-decoration: none;}
+nav>ul>li>a:active {color: rgb(198, 177, 221); text-decoration: none;}
+nav>ul>li>a:visited {color: rgb(255, 255, 255); text-decoration: none;}
+footer a {color: rgb(235, 225, 247); text-decoration: none;}
+footer a:hover {color: rgb(188, 174, 204); text-decoration: none;}
+footer a:active {color: rgb(255, 255, 255); text-decoration: none;}
+footer a:visited {color: rgb(188, 174, 204); text-decoration: none;}
 
 @media only screen and (max-device-width: 600px) {
   #navbar {
